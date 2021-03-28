@@ -13,12 +13,6 @@ const Title = styled.h1`
     color: ${props => props.theme.titleColor};
     transition: all .5s ease;
 `;
-const TagLine = styled.span`
-    color: ${props => props.theme.tagLineColor};
-    font-size: 18px;
-    transition: all .5s ease;
-`;
-
 
 
 const Contact = () => {

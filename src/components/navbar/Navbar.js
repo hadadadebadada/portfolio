@@ -56,27 +56,24 @@ function Navbar() {
             <IconContext.Provider value={{ color: 'orange' }}>
                 <Nav>
                     <NavbarContainer>
-                        <NavLogo to='/' onClick={closeMobileMenu}>
 
-
-                        </NavLogo>
                         <MobileIcon onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}
                         </MobileIcon>
                         <NavMenu onClick={handleClick} click={click}>
                             <NavItem>
                                 <NavLinks to='/about' onClick={closeMobileMenu}>
-                                    About
+                                    Über mich
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to='/skills' onClick={closeMobileMenu}>
-                                    <Title>Skills</Title>
+                                    <Title>Projekte</Title>
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to='/contact' onClick={closeMobileMenu}>
-                                    Contact
+                                    Kontakt
                                 </NavLinks>
                             </NavItem>
 {/*                             <NavItemBtn>

@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-
-import styled, { ThemeProvider, css } from 'styled-components'
+import { ThemeProvider } from 'styled-components'
 import Splash from './components/SplashScreen'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
-
-
+/* import  { Helmet } from 'react-helmet'
+ */
 const LightTheme = {
   pageBackground: "white",
   titleColor: "#dc658b",
@@ -26,13 +24,19 @@ const themes = {
 function App() {
   const [theme, setTheme] = useState("dark")
 
+  useEffect(() => {
+    document.title = "Artur Pfeifer Portfolio"
+  }, []);
 
 
   return (
     <ThemeProvider theme={themes[theme]}>
+
+
       <Splash theme={theme} setTheme={setTheme} />
-      
+
     </ThemeProvider>
+
   );
 }
 

@@ -54,7 +54,7 @@ function Footer() {
 
             <FooterLink to='/'>Artur Pfeifer</FooterLink>
             <FooterLink to='/'>Student & Entwickler</FooterLink>
-            <FooterLink to='/'>Hochbegabter Affe</FooterLink>
+            <FooterLink to='/'>Handelsvertreter & Nachhilfelehrer</FooterLink>
             
           </FooterLinkItems>
           <FooterLinkItems>
@@ -75,16 +75,33 @@ function Footer() {
           </FooterLinkItems> */}
           <FooterLinkItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to='/'>Instagram</FooterLink>
-            
-            <FooterLink href={
+            <SocialIconLink href={
+                'https://github.com/hadadadebadada/'
+              }
+              rel='noopener noreferrer'
+              target='_blank' aria-label='Github' 
+              >
+              <FaGithubSquare />
+              Github
+            </SocialIconLink>
+            <SocialIconLink  href={
+                'https://www.linkedin.com/in/artur-pfeifer-8541931b5/'
+              }
+              rel='noopener noreferrer'
+              target='_blank' aria-label='LinkedIn'>
+              <FaLinkedin /> 
+               LinkedIn
+            </SocialIconLink>
+
+            <SocialIconLink  href={
                 '//www.facebook.com/FreshVWater'
               }
               rel='noopener noreferrer'
               target='_blank'
-              aria-label='Youtube'>Facebook</FooterLink>
-
-            <FooterLink to='/'>Github</FooterLink>
+              aria-label='Facebook' target='_blank'>
+              <FaFacebook />
+               Facebook
+            </SocialIconLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
@@ -95,7 +112,7 @@ function Footer() {
             LOGO
           </SocialLogo> */}
           <WebsiteRights>  <FooterLink to='/impressum'>Impressum</FooterLink> <FooterLink to='/'>Datenschutz</FooterLink> © 2021 </WebsiteRights>
-          <SocialIcons>
+{/*           <SocialIcons>
             <SocialIconLink  href={
                 '//www.facebook.com/FreshVWater'
               }
@@ -112,9 +129,9 @@ function Footer() {
               target='_blank' aria-label='Instagram'>
               <FaInstagram />
             </SocialIconLink>
-{/*             <SocialIconLink >
+            <SocialIconLink >
               <FaYoutube />
-            </SocialIconLink> */}
+            </SocialIconLink>
             <SocialIconLink href={
                 'https://github.com/hadadadebadada/'
               }
@@ -130,7 +147,8 @@ function Footer() {
               target='_blank' aria-label='LinkedIn'>
               <FaLinkedin />
             </SocialIconLink>
-          </SocialIcons>
+          </SocialIcons> */}
+
         </SocialMediaWrap>
       </SocialMedia>
     </FooterContainer>

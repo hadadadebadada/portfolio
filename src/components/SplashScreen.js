@@ -13,13 +13,11 @@ import Home from './pages/Home'
 import java from './pages/skillSubpages/Java'
 import python from './pages/skillSubpages/Python'
 import R from './pages/skillSubpages/R'
-import epk from './pages/skillSubpages/EPK'
-import OOAD from './pages/skillSubpages/OOAD'
-import sql from './pages/skillSubpages/Sql'
+import epk from './pages/EPK'
 import android from './pages/skillSubpages/Android'
 import impressum from './pages/Impressum'
-/* import Python from './pages/skillSubpages/Python'
- */
+import javascript from './pages/skillSubpages/JavaScript'
+import ScrollToTop from '../scrollToTop'
 const Toggle = styled.button`
     cursor: pointer;
     height: 60px;
@@ -38,9 +36,6 @@ const Toggle = styled.button`
 `;
 
 
-
-
-
 const Page = styled.div`
   display: flex;
   justify-content: Center;
@@ -51,14 +46,7 @@ const Page = styled.div`
   transition: all .5s ease;
 `;
 
-const Container = styled.div`
-  justify-content: left;
-  align-items: top;
-    display: flex;
-    width:100%;
-    flex-direction: column;
-    align-items: center;
-`;
+
 
 const RightContainer = styled.div`
   justify-content: right;
@@ -69,18 +57,6 @@ const RightContainer = styled.div`
     align-items: center;
 `;
 
-const Title = styled.h1`
-      justify-content: center;
-  align-items: center;
-    color: ${props => props.theme.titleColor};
-    transition: all .5s ease;
-`;
-
-const TagLine = styled.span`
-    color: ${props => props.theme.tagLineColor};
-    font-size: 18px;
-    transition: all .5s ease;
-`;
 
 
 function SplashScreen(props) {
@@ -101,14 +77,10 @@ function SplashScreen(props) {
             <RightContainer>
 
 
-
-
-
-
                 <Router>
                     <GlobalStyle />
-                    {/*     <ScrollToTop />
- */}                 <Navbar />
+                    <ScrollToTop />
+                    <Navbar />
 
                     <Toggle onClick={changeTheme}>
                         {icon}
@@ -124,17 +96,13 @@ function SplashScreen(props) {
                         <Route path='/skills' exact component={skills} />
                         <Route path='/contact' exact component={contact} />
                         <Route path='/java' exact component={java} />
+                        <Route path='/javascript' exact component={javascript} />
+
                         <Route path='/android' exact component={android} />
-                        <Route path='/epk' exact component={epk} />
-                        <Route path='/OOAD' exact component={OOAD} />
+                        <Route path='/edu' exact component={epk} />
                         <Route path='/python' exact component={python} />
                         <Route path='/R' exact component={R} />
-                        <Route path='/sql' exact component={sql} />
                         <Route path='/impressum' exact component={impressum} />
-
-
-
-                        {/* <Route path='/products' /> */}
 
 
 

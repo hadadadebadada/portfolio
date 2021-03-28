@@ -1,13 +1,8 @@
 import React from 'react';
-import styled from "styled-components"
 import Cards from "../cards/Cards"
+import { Title, Div1, Div2, Div3 } from './skillSubpages/DivAndTextStyles'
+import Typed from 'react-typed'
 
-const Title = styled.h1`
-      justify-content: center;
-  align-items: center;
-    color: ${props => props.theme.titleColor};
-    transition: all .5s ease;
-`;
 
 const Services = () => {
   return (
@@ -16,25 +11,32 @@ const Services = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '100%',
-        width:'100%'
+        height: '90%',
+        width: '70%'
       }}
     >
 
-<div
-      style={{
-    
-        height: '100%',
-        width:'100%'
-      }}
-    >
-       <Cards></Cards>   
 
-></div>
 
- 
+      <Div1>
+        <Div2>
+          <Title>
+            <Typed
+              className="typed-text"
+              strings={["Erkunden Sie hier verschiedene Projekte, welche ich im Laufe von Studium, Arbeit und Privatzeit entwickelt habe."
+              ]}
+              typeSpeed={30}
+              backSpeed={8}
+            ></Typed>
+          </Title>
 
- </div>
+          <Cards></Cards>
+        </Div2>
+      </Div1>
+
+
+
+    </div>
   );
 };
 

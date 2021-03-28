@@ -25,15 +25,6 @@ export const NavbarContainer = styled(Container)`
   ${Container}
 `;
 
-export const NavLogo = styled(Link)`
-  color: #fff;
-  justify-self: flex-start;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-`;
 
 export const NavIcon = styled(FaMagento)`
   margin-right: 0.5rem;
@@ -66,9 +57,9 @@ export const NavMenu = styled.ul`
   list-style: none;
   text-align: center;
   transition: 'top 0.6s';
-    padding-left: 450px;
+    padding-left: 35%;
    
-    padding-right: 500px;
+    padding-right: 50%;
 
 
   @media screen and (max-width: 960px) {
