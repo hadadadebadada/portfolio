@@ -1,13 +1,8 @@
 import React from 'react';
-import styled from "styled-components"
 import Typed from 'react-typed';
+import {Title} from '../pages/skillSubpages/DivAndTextStyles'
 
-const Title = styled.h1`
-      justify-content: center;
-  align-items: center;
-    color: ${props => props.theme.titleColor};
-    transition: all .5s ease;
-`;
+
 const About = () => {
 
 
@@ -27,6 +22,7 @@ const About = () => {
     >
 
 
+    
         <br></br>
         <br></br>
         <br></br>
@@ -36,7 +32,7 @@ const About = () => {
         className="typed-text"
         strings={["Hallo, ich bin Artur, 27 und Student",
        
-      "Zur Zeit befinde ich mich im vierten Semester des Studiengangs betriebliches Informationsmanagement", 
+      "Zur Zeit befinde ich im vierten Semester für betriebliches Informationsmanagement", 
       "Nebenbei arbeite in der Erwachsenenbildung für Mircrosoft Office-Produkte, als Handelsvertreter für einen Vertriebspartner der EWE und an kleineren IT-Projekten.",
       ]}
         typeSpeed={30}

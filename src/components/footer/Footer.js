@@ -1,10 +1,7 @@
 import React from 'react';
-import { Button } from '../../globalStyles';
 import {
   FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
+
   FaLinkedin,
   FaGithubSquare
 
@@ -24,13 +21,21 @@ import {
   SocialMediaWrap,
 
   WebsiteRights,
-  SocialIcons,
   SocialIconLink
 } from './Footer.elements';
 
 function Footer() {
   return (
+    <div>
+
+
+
+         <br></br>
+        <br></br>
+     
+    
     <FooterContainer>
+      
       <FooterSubscription>
         <FooterSubHeading>
            <FooterLink to='/contact'> Falls Sie Fragen haben, einfach hier klicken und fragen</FooterLink> 
@@ -97,7 +102,7 @@ function Footer() {
                 '//www.facebook.com/FreshVWater'
               }
               rel='noopener noreferrer'
-              target='_blank'
+              
               aria-label='Facebook' target='_blank'>
               <FaFacebook />
                Facebook
@@ -152,6 +157,7 @@ function Footer() {
         </SocialMediaWrap>
       </SocialMedia>
     </FooterContainer>
+    </div>
   );
 }
 

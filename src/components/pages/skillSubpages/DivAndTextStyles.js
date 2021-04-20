@@ -1,5 +1,8 @@
 import styled from 'styled-components'
 
+
+
+
 export const Div1 = styled.div`
     padding: 4rem;
     display: flex;
@@ -15,7 +18,7 @@ export const Div2 = styled.div`
     flex-flow: column;
     align-items: center;
   
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
 
   background-color: ${props => props.theme.pageBackground};
@@ -24,6 +27,7 @@ export const Div2 = styled.div`
 export const Div3 = styled.div`
     position: relative;
     width: 100%;
+    border-radius: 25px;
 
 
   background-color: ${props => props.theme.pageBackground};

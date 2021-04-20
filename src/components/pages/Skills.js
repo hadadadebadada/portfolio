@@ -1,8 +1,7 @@
 import React from 'react';
 import Cards from "../cards/Cards"
-import { Title, Div1, Div2, Div3 } from './skillSubpages/DivAndTextStyles'
+import { Title, Div2 } from './skillSubpages/DivAndTextStyles'
 import Typed from 'react-typed'
-
 
 const Services = () => {
   return (
@@ -12,13 +11,12 @@ const Services = () => {
         justifyContent: 'center',
         alignItems: 'center',
         height: '90%',
-        width: '70%'
+        width: '100%'
       }}
     >
 
 
 
-      <Div1>
         <Div2>
           <Title>
             <Typed
@@ -31,8 +29,10 @@ const Services = () => {
           </Title>
 
           <Cards></Cards>
+
+          
         </Div2>
-      </Div1>
+
 
 
 

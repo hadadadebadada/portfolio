@@ -1,5 +1,5 @@
 import React from 'react'
-import {Title, TagLine, Div1, Div2, Div3} from  './skillSubpages/DivAndTextStyles'
+import { Div2} from  './skillSubpages/DivAndTextStyles'
 import SubCards from '../cards/SubCards'
 function EPK() {
     return (
@@ -13,13 +13,13 @@ function EPK() {
       }}
     >
       
-      <Div1>
+      <Div2>
         <SubCards>
 
         </SubCards>
 
 
-      </Div1>
+      </Div2>
       </div>
     )
     

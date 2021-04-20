@@ -1,17 +1,6 @@
 import React from 'react'
-import styled from 'styled-components'
-const Title = styled.h1`
-      justify-content: center;
-  align-items: center;
-    color: ${props => props.theme.titleColor};
-    transition: all .5s ease;
-`;
+import {Title, TagLine} from "../pages/skillSubpages/DivAndTextStyles"
 
-const TagLine = styled.span`
-    color: ${props => props.theme.tagLineColor};
-    font-size: 18px;
-    transition: all .5s ease;
-`;
 
 function Impressum() {
     return (

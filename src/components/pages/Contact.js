@@ -1,18 +1,11 @@
 import emailjs from "emailjs-com";
-import React, { useState } from 'react';
-import styled from "styled-components"
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Typed from 'react-typed';
 
+import {Title} from '../pages/skillSubpages/DivAndTextStyles'
 
 
-
-const Title = styled.h1`
-      justify-content: center;
-  align-items: center;
-    color: ${props => props.theme.titleColor};
-    transition: all .5s ease;
-`;
 
 
 const Contact = () => {

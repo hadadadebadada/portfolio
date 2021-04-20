@@ -1,89 +1,114 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import {Title, TagLine, Div1, Div2, Div3} from  '../pages/skillSubpages/DivAndTextStyles'
+import { Div3 } from '../pages/skillSubpages/DivAndTextStyles'
+
 
 
 
 function SubCards() {
 
   return (
-      
+
+    <div
+      style={{
+
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: '25px;',
+        height: '90%',
+        width: '100%',
+
+      }}
+    >
 
 
-    <Div1>
-      <Div2>
-        <Div3 className='cards__wrapper'>
 
-          <ul className='cards__items'>
-            <CardItem
+
+
+
+
+      <Div3 className='cards__wrapper'>
+
+        <ul className='cards__items'>
+          {/*             <CardItem
 
 
               src='images/OOAD.png'
               text='Plichten/- Lastenhefte mit UML-(Analyse/-) Klassendiagrammen '
 
               label='OOAD'
-            />
-            <CardItem
-              src='images/EPKBPMN.png'
-              text=' Geschäftsprozessmodellierung und -analyse'
-              label='EPK/ BPMN'
-            />
-            <CardItem
+            /> */}
 
-
-              src='images/SQL.png'
-              text='Datenverwaltung mit SQL und Oracle'
-              label='Object-orientated analysis & design'
-            />
-          </ul>
-
-          <ul className='cards__items'>
-            <CardItem
-
-
-              src='images/office2.png'
-              text='Sicherer Umgang mit Excel, Word, PowerPoint, Teams, Access und Outlook '
-
-              label='Office'
-            />
-            <CardItem
-              src='images/salesforce.png'
-              text='Customer Relationship Management'
-              label='Salesforce'
-            />
-            
-                        <CardItem
-
-
-src='images/linux.png'
-text='Debian basierte Systeme (Ubuntu, Kali, POP_OS!)'
-
-label='Linux'
-/>
-            <CardItem
-
-
-              src='images/communication.png'
-              text='mit Verkaufspsychologie verhalf mir zum Erfolg beim Fundraising und als Handelsvertreter'
-              label='Kommunikation'
-            />
-            
-          </ul>
-          <ul>
           <CardItem
-              src='images/language.png'
-              text='Deutsch, Englisch und Russisch auf hohem Niveau, Spanisch Grundkenntnisse'
-              label='Sprachen'
-              
-            />
-          </ul>
+
+            rating={String.fromCharCode(9733, 9733, 9733, 9734, 9734)}
+
+            src='images/SQL.png'
+            text='Datenverwaltung mit SQL und Oracle'
+            label='SQL'
+          />
+          <CardItem
+            rating={String.fromCharCode(9733, 9733, 9733, 9734, 9734)}
+
+            src='images/EPKBPMN.png'
+            text=' Geschäftsprozess-/ OOAD-modellierung und -analyse'
+            label='EPK/ BPMN und UML'
+          />
+
+        </ul>
+
+        <ul className='cards__items'>
+          <CardItem
+
+            rating={String.fromCharCode(9733, 9733, 9733, 9733, 9734)}
+
+            src='images/office2.png'
+            text='Sicherer Umgang mit Excel, Power BI, Word, PowerPoint, Teams, Access und Outlook '
+
+            label='Office'
+          />
+          <CardItem
+            rating={String.fromCharCode(9733, 9733, 9733, 9734, 9734)}
+
+            src='images/salesforce.png'
+            text='Customer Relationship Management'
+            label='Salesforce'
+          />
+
+          <CardItem
+
+            rating={String.fromCharCode(9733, 9733, 9733, 9733, 9734)}
+
+            src='images/linux.png'
+            text='Debian basierte Systeme (Ubuntu, Kali, POP_OS!)'
+
+            label='Linux'
+          />
+
+
+        </ul>
+
+        <ul>
+
+          <CardItem
+            src='images/language.png'
+            text='Deutsch, Englisch und Russisch auf hohem Niveau, Spanisch Grundkenntnisse'
+            label='Sprachen'
+
+          />
+
+
+        </ul>
 
 
 
-        </Div3>
-      </Div2>
-    </Div1>
+      </Div3>
+
+    </div>
+
+
 
   );
 }

@@ -58,23 +58,23 @@ export const NavMenu = styled.ul`
   text-align: center;
   transition: 'top 0.6s';
     padding-left: 35%;
-   
     padding-right: 50%;
 
 
   @media screen and (max-width: 960px) {
     display: flex;
+ 
     flex-direction: column;
     width:20vh;
     height: 70vh;
     align-items: center;
     text-align: center;
-    padding-left:53%;
-    
+    padding-left:1%;
+    padding-right:100%;
+    box-sizing: content-box;
     position: relative;
-    top: 28px;
+    top: 68px;
     left: ${({ click }) => (click ? 0 : '-1000%')};
-
     opacity: 1;
     transition: all 0.1s ease;
 
@@ -119,14 +119,21 @@ export const NavLinks = styled(Link)`
   padding: 0.5rem 1rem;
   height: 100%;
 
+  padding-left:0%;
   @media screen and (max-width: 960px) {
     text-align: center;
-    padding: 2rem;
-    width: 100%;
-    display: table;
+    padding: 10%;
+    width:40vh;
+    display: flex;
+    border-style: dashed;
+    background-color:${props => props.theme.tagLineColor}; 
+    border-radius: 25px;
+
 
     &:hover {
-      color: #4b59f7;
+      color: black;
+      background-color:white;
+
       transition: all 0.3s ease;
     }
   }
