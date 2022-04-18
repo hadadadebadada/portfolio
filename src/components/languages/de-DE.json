@@ -1,0 +1,25 @@
+{
+    "app.header":"Editiere <code>{fileName}<code> js und speichern zum laden.",
+    "app.content":"Moin Moin",
+    "app.channel.plug":" mit {channelName}",
+    "slider.title":"MEIN TISCH IST DEIN TISCH",
+    "navbar.home":"Start",
+    "navbar.services":"Buchungsanfrage",
+    "navbar.products":"Meine Buchungen",
+    "narvar.login":"Einloggen",
+    "navbar.employeefinder":"Mitarbeiter Suchen",
+    "navbar.adminbooking":"Admin Buchungen",
+    "app.welcome":"Willkommen zu meinem Portfolio. Ich bin Artur, 28 und meine Leidenschaft ist das Programmieren. Meine favorisierten Technologien zur Zeit sind: React, Selenium, SpringBoot und Scrapy. Ich liebe es mit Code neue Dinge zu schaffen und die Entwicklung meiner Kreationen voran zutreiben.",
+    "app.me":"Ich bin Artur, 28 und meine Leidenschaft ist das Programmieren. Ich liebe es mit Code neue Dinge zu schaffen und die Entwicklung meiner Kreationen voran zutreiben. ",
+    "app.contact":"Hinterlassen Sie mir gerne eine Nachricht",
+    "app.card1":"Die Entwicklung von Backend oder Microservices mit JavaEE oder SpringBoot/ Quarkus oder von Frontend mit React mit diversen JavaScript Bibliotheken sind meine stärksten Skills. Neben der Realisierung von Software gehört das Testen des Backends mit JUnit4/5 oder des Frontends mit Selenide/ Selenium ebenfalls zu meinen Stärken.",
+    "app.card2":"Meine erste Android App, welche ich für einen Vertriebspartner der EWE erstellt habe, findet dort bereits ein einigen Jahren Ihren Einsatz.",
+    "app.card3":"Zusätzlich empfinde ich viel Freude bei der Auswertung von Daten, welche ich mir von Zeit zu Zeit mit einem WebScraper ziehe.",
+    "app.card4":"Zu den Data Science Skills mit Python und R kommen hervorangede Kenntnisse mit SQL und den dazugehörigen Tools hinzu.",
+    "app.card5":"Ebenso bin ich seit Sommer letzten Jahres im Projektmanagement in der SaaS-Branche tätig und übernehme dort Verantwortung für Kundenprojekte.",
+    "app.card6":"Mein Profil runden solide Skills mit in CI/ CD mit Jenkins, Version Controll mit GitHub oder GitLab unabhängig vom Bertriebssystem ab.",
+    "app.card7":"Während Praktikums und des Studiums hatte ich außerdem erste Berührungspunkte mit SAP und Salesforce.",
+    "app.card8":"Ein weiteres Hobby von mir ist die Spieleprogrammierung mit Unity und der Serveraufbau für Cryptomining."
+
+    
+}

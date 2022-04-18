@@ -1,0 +1,25 @@
+{
+    "app.header":"Привет <code>{fileName}<code> js and save to reload.",
+    "app.content":"Привет Привет",
+    "app.channel.plug":"Привет Привет Привет {channelName}",
+    "slider.title":"Мой стол твой стол",
+    "navbar.home":"Начинать",
+    "navbar.services":"Сервисы",
+    "navbar.products":"мои бронирования",
+    "narvar.login":"авторизоваться",
+    "navbar.employeefinder":"митарбайтер авторизоваться",
+    "navbar.adminbooking":"Админ резервирование",
+    "app.welcome":"Добро пожаловать в мой портфель, меня зовут Артур, 28 лет и моё призвание это программирование. Мои любимые технологии React, Selenium, SpringBoot и Scrapy.    ",
+    "app.contact":"Пожалуйста, оставьте мне сообщение",
+    "app.card1":"Backend development with JavaEE or SpringBoot and frontend development with React and diffrent JS libraries like three.js are my best skills. Beside software development are testing software with Junit4/5 or testing frontend with Selenide/Selenium my strenghes.",
+    "app.card2":"My first android app, which I programmed for a salespartner of a big energy company to digitalize contracts is still in usage.",
+    "app.card3":"Futhermore is it a pleasure for me to analyse and visualize data, which I get through a webscraper like scrapy.",
+    "app.card4":"In advance to my data sciece skills with Python and R, do I have excellent skills with SQL and management tools for the latter.",
+    "app.card5":"Since last summer I am working in project management for a SaaS-Company where I am responsible for my own projects.",
+    "app.card6":"Solid skills in CI/ CD  with Jenkins, Version Controll with GitHub or GitLab no matter on what operating system.",
+    "app.card7":"Through internships and my studies I got first experiences with SAP and Salesforce.",
+    "app.card8":"Another hobby of mine is leveldesign with unity and the construction of servers for crypoto mining."
+    
+    
+
+}

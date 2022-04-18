@@ -1,0 +1,23 @@
+{
+    "app.header":"Edit <code>{fileName}<code> js and save to reload.",
+    "app.content":"sup bro ",
+    "app.channel.plug":" brought to you by {channelName}",
+    "slider.title":"My table is your table",
+    "navbar.home":"Home",
+    "navbar.services":"Services",
+    "navbar.products":"My Bookings",
+    "navbar.login":"Sign Up",
+    "navbar.employeefinder":"Employee Search",
+    "navbar.adminbooking":"Admin Booking",
+    "app.welcome":"Welcome to my Portfolio, I am Artur, 28 and my passion is programming. My favorite technologies at the moment are: React, Selenium, SpringBoot and Scrapy. I love to create things through code and to take care of my creations",
+    "app.contact":"Feel free to send me a mail.",
+    "app.card1":"Backend development with JavaEE or SpringBoot and frontend development with React and diffrent JS libraries like three.js are my best skills. Beside software development are testing software with Junit4/5 or testing frontend with Selenide/Selenium my strenghes.",
+    "app.card2":"My first android app, which I programmed for a salespartner of a big energy company to digitalize contracts is still in usage.",
+    "app.card3":"Futhermore is it a pleasure for me to analyse and visualize data, which I get through a webscraper like scrapy.",
+    "app.card4":"In advance to my data sciece skills with Python and R, do I have excellent skills with SQL and management tools for the latter.",
+    "app.card5":"Since last summer I am working in project management for a SaaS-Company where I am responsible for my own projects.",
+    "app.card6":"Solid skills in CI/ CD  with Jenkins, Version Controll with GitHub or GitLab no matter on what operating system.",
+    "app.card7":"Through internships and my studies I got first experiences with SAP and Salesforce.",
+    "app.card8":"Another hobby of mine is leveldesign with unity and the construction of servers for crypoto mining."
+    
+}
