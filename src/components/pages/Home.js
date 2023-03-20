@@ -9,7 +9,7 @@ import table from '../../assets/models/landingpage/android.glb'
 import python from '../../assets/models/landingpage/python.glb' 
 import react from '../../assets/models/landingpage/react.glb'
 
-import computer from '../../assets/models/landingpage/computer.glb'
+
 import earthTexture from '../../assets/images/landingpage/01-3.jpg'
 import earthBump from '../../assets/images/landingpage/earthbump1k.jpg'
 import earthSpec from '../../assets/images/landingpage/earthspec1k.jpg'

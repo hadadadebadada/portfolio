@@ -8,7 +8,7 @@ import { IconContext } from 'react-icons/lib';
  */
 
 import {Button} from '../pages/skillSubpages/DivAndTextStyles'
-
+import { FormattedMessage } from 'react-intl';
 import {
     Nav,
     NavbarContainer,
@@ -19,7 +19,7 @@ import {
     NavItemBtn,
     NavLinks,
     NavBtnLink
-} from './Navbar2.elements';
+} from './Navbar.elements';
 import {Title} from "../pages/skillSubpages/DivAndTextStyles"
 import Home from '../pages/Home';
 
@@ -50,7 +50,7 @@ function Navbar2() {
 
     window.addEventListener('resize', showButton);
 
-    let username = localStorage.getItem('username')
+
 
 
     return (
@@ -79,24 +79,10 @@ function Navbar2() {
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
-                                {
-                                    username !== "admin" ?
-                                        <NavLinks to='/services' onClick={closeMobileMenu}>
-                                            <FormattedMessage
-                                                id="navbar.services">
-
-                                            </FormattedMessage>
-                                        </NavLinks> : <p> </p>}
+                            
                             </NavItem>
                             <NavItem>
-                                {
-                                    username !== "admin" ?
-                                        <NavLinks to='/myBookings' onClick={closeMobileMenu}>
-                                            <FormattedMessage
-                                                id="navbar.products">
-
-                                            </FormattedMessage>
-                                        </NavLinks> : <p></p>}
+                     
                             </NavItem>
                             <NavItem>
                                 <NavLinks to='/employeelist' onClick={closeMobileMenu}>
@@ -107,43 +93,11 @@ function Navbar2() {
                                 </NavLinks>
                             </NavItem>
                             <NavItem>
-                                {
-                                    username == "admin" ?
-
-                                        <NavLinks to='/adminbooking' onClick={closeMobileMenu}>
-                                            <FormattedMessage
-                                                id="navbar.adminbooking">
-
-                                            </FormattedMessage>
-                                        </NavLinks> : <p></p>
-                                }
+                 
 
 
                             </NavItem>
-                            <NavItemBtn>
-                                {button ? (
-                                    <NavBtnLink to='/login'>
-                                        <Button primary>
-                                            {/*                                   <FormattedMessage
-                                         id="navbar.login" >
 
-                                        </FormattedMessage> */}
-                                            Login
-
-                                        </Button>
-                                    </NavBtnLink>
-                                ) : (
-                                    <NavBtnLink to='/login'>
-                                        <Button onClick={closeMobileMenu} fontBig primary>
-                                            {/*                                          <FormattedMessage
-                                                id="navbar.login">
-
-                                            </FormattedMessage> */}
-                                            Login
-                                        </Button>
-                                    </NavBtnLink>
-                                )}
-                            </NavItemBtn>
 
 
 
